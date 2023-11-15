@@ -1,0 +1,15 @@
+# ninja log v5
+49	2339	7217366928555797	CMakeFiles/untitled1.dir/InterfazUsuario.cpp.obj	217068bbcd749fe3
+28	1227	7217359477826035	CMakeFiles/untitled1.dir/Paciente.cpp.obj	d7e95bedd39d9f3f
+6	2292	7217366928555797	CMakeFiles/untitled1.dir/AplicacionADN.cpp.obj	4e2d8203f5e459ad
+21	2283	7217366926312408	CMakeFiles/untitled1.dir/main.cpp.obj	eb0fbf1993798362
+14	1422	7217367976529695	CMakeFiles/untitled1.dir/ContPacientes.cpp.obj	8291a197e93f0d00
+21	1275	7217359479158902	CMakeFiles/untitled1.dir/Enfermedad.cpp.obj	2f4358f71e257c50
+14	2313	7217366928168771	CMakeFiles/untitled1.dir/ContEnfermedades.cpp.obj	9f4168029225f16e
+38	2290	7217366926618834	CMakeFiles/untitled1.dir/IReporte.cpp.obj	b4ec11f466541750
+18	2404	7217367017130922	CMakeFiles/untitled1.dir/RepAnalisis2.cpp.obj	802118cc7cc77ef
+41	2261	7217367014303004	CMakeFiles/untitled1.dir/RepAnalisis1.cpp.obj	dc8e09b64164ea64
+31	2356	7217367016876962	CMakeFiles/untitled1.dir/RepAnalisis3.cpp.obj	69dacb3a672ddcc7
+1423	1651	7217367978748860	untitled1.exe	5f647674429f40ed
+11	467	7217350656192864	CMakeFiles/untitled1.dir/Archivos.cpp.obj	9a303db5983f7f77
+4	1447	7217710313050029	build.ninja	18888c65705763e9
