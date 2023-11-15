@@ -13,4 +13,5 @@ public:
     virtual ~RepAnalisis3();
     void encabezado();
     void analisis(Paciente*, ContEnfermedades*);
+    string impAnalisis(int cant,string nombreE, int pos );
 };

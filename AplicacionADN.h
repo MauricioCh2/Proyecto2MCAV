@@ -21,6 +21,7 @@ public:
     void cargarPacientes();
     void cargarEnfermedades();
     void reporte(IReporte*);
+    string impNombres(int cont, string nom);
     // No necesarios para el examen..
     void verPacientesEnPantalla();
     void verEnfermedadesEnPantalla();

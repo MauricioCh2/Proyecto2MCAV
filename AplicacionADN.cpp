@@ -36,10 +36,17 @@ void AplicacionADN::cargarEnfermedades() {
 }
 
 void AplicacionADN::reporte(IReporte* irep) {
-    //...
-
+    irep->encabezado();
+    for (int i = 0; i < cp->getCantidad() ; ++i) {
+        cout<<impNombres(i+1, cp->obtPacienteEnPos(i)->getNombre());
+        irep->analisis(cp->obtPacienteEnPos(i), ce);
+    }
 }
-
+string AplicacionADN::impNombres(int cont, string nom){
+    stringstream s;
+    s<<cont<<". "<< nom<<endl;
+    return s.str();
+}
 // No necesarios para el examen..
 
 void AplicacionADN::verPacientesEnPantalla() {
