@@ -6,7 +6,7 @@
 
 int InterfazUsuario::menu() {
     int op;
-    system("cls");
+    clear();
     cout << "------ Creacion de una Aplicacion ADN-----" << endl;
     cout << "                                          " << endl;
     cout << "-------------------MENU-------------------" << endl;

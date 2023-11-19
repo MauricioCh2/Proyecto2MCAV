@@ -26,4 +26,6 @@ add_executable(untitled1 main.cpp
         RepAnalisis2.h
         RepAnalisis3.cpp
         RepAnalisis3.h
+        utilities.cpp
+        utilities.h
 )

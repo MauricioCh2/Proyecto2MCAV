@@ -1,3 +1,3 @@
-C:/Users/mauri/OneDrive - Universidad Nacional de Costa Rica/Desktop/University/Programacion II/Codigos/Proyecto 2/Proyecto2MCAV/cmake-build-debug/CMakeFiles/untitled1.dir
-C:/Users/mauri/OneDrive - Universidad Nacional de Costa Rica/Desktop/University/Programacion II/Codigos/Proyecto 2/Proyecto2MCAV/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mauri/OneDrive - Universidad Nacional de Costa Rica/Desktop/University/Programacion II/Codigos/Proyecto 2/Proyecto2MCAV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mauricio/CLionProjects/Proyecto2MCAV/cmake-build-debug/CMakeFiles/untitled1.dir
+/home/mauricio/CLionProjects/Proyecto2MCAV/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mauricio/CLionProjects/Proyecto2MCAV/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\mauri\OneDrive - Universidad Nacional de Costa Rica\Desktop\university\Programacion II\Codigos\Proyecto 2\Proyecto2MCAV" -B "C:\Users\mauri\OneDrive - Universidad Nacional de Costa Rica\Desktop\university\Programacion II\Codigos\Proyecto 2\Proyecto2MCAV\cmake-build-debug"
--- Configuring done (1.5s)
--- Generating done (0.1s)
--- Build files have been written to: C:/Users/mauri/OneDrive - Universidad Nacional de Costa Rica/Desktop/University/Programacion II/Codigos/Proyecto 2/Proyecto2MCAV/cmake-build-debug
+/home/mauricio/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/mauricio/CLionProjects/Proyecto2MCAV -B /home/mauricio/CLionProjects/Proyecto2MCAV/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/mauricio/CLionProjects/Proyecto2MCAV/cmake-build-debug

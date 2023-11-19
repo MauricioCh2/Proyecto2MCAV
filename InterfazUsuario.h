@@ -4,6 +4,7 @@
 
 #pragma once
 #include"AplicacionADN.h"
+#include"utilities.h"
 using namespace std;
 
 // Las interfaces de usuario son clases de servicio.
