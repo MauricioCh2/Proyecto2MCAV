@@ -15,12 +15,17 @@ void RepAnalisis1::analisis(Paciente* p, ContEnfermedades* ce) {
     Enfermedad *ptrE = nullptr;
     string secuencia = p->getSecuencia();
     int susceptibilidad = 0;
+    int contE =1;
     for (int i = 0; i < ce->getCantidad(); i++) {
         ptrE = ce->obtEnfermedadEnPos(i);
         susceptibilidad = AplicacionADNcalcularConcentracion(ptrE->getSecEnfermedad(), secuencia);
         if (susceptibilidad > 0) {
             cout << "\x1b[36m    ." << ptrE->getNombEnfermedad()<<" \x1b[0m" << endl;
+            contE++;
         }
+    }
+    if(contE == 1){
+        cout << "   Sin suceptibilidad de enfermedades de origen genetico"<< endl;//poner en verde
     }
 }
 //-----------------------FIN DE LA CLASE RepAnalisis1------------------------

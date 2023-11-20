@@ -26,13 +26,14 @@ void RepAnalisis3::analisis(Paciente* p,  ContEnfermedades* ce) {
         }
     }
     if(contE == 1){
-        cout << "   Sin suceptibilidad de enfermedades de origen genetico"<< endl;
+        cout << "   Sin suceptibilidad de enfermedades de origen genetico"<< endl;//poner en verde
     }
 
 }
 
 string RepAnalisis3::impAnalisis(int cantE, string nombreE, int pos) {
     stringstream  s;
+
     if(pos!=0){
         s<<"    "<<char('a'+ cantE -1 )<<". "<<nombreE << "  ";//char('a'+ cantE -1 ) es para poder imprimirlo como letras y no como numeros
         if(pos==1){
