@@ -18,9 +18,9 @@ int main() {
     AplicacionADN* Co = new AplicacionADN();
 
     do {
-        op = InterfazUsuario::menu();
-        enter();
         clean();
+        op = InterfazUsuario::menu();
+
         switch (op) {
             case 1:  InterfazUsuario::ventanaCargarPacientes(Co);    break;
             case 2:  InterfazUsuario::ventanaCargaEnfermedades(Co);  break;
@@ -32,6 +32,7 @@ int main() {
             default: cout << " ERROR: Digite una opcion correcta." << endl;
         };  // fin del switch.
         enter();
+
     } while (op != 6);
 
     delete Co;

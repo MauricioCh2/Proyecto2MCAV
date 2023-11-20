@@ -23,17 +23,21 @@ void RepAnalisis2::analisis(Paciente* p,  ContEnfermedades* ce) {
     int C = 0;
     int G = 0;
 
-    for (int i = 0; i < totalBaseN; i++) {
-        if (secuencia[i] == 'A') {
-            A++;
-        } else if (secuencia[i] == 'T') {
-            T++;
-        } else if (secuencia[i] == 'C') {
-            C++;
-        } else if (secuencia[i] == 'G') {
-            G++;
-        }
-    }
+//    for (int i = 0; i < totalBaseN; i++) {
+//        if (secuencia[i] == 'A') {
+//            A++;
+//        } else if (secuencia[i] == 'T') {
+//            T++;
+//        } else if (secuencia[i] == 'C') {
+//            C++;
+//        } else if (secuencia[i] == 'G') {
+//            G++;
+//        }
+//  }
+    A= AplicacionADNcalcularConcentracion("A", secuencia);
+    T= AplicacionADNcalcularConcentracion("T", secuencia);
+    G= AplicacionADNcalcularConcentracion("G", secuencia);
+    C= AplicacionADNcalcularConcentracion("C", secuencia);
     cout << "   A-" << (int)(A*100/totalBaseN) << "%, T-" << (int)(T*100/totalBaseN) <<  "%, G-" << (int)(G*100/totalBaseN) << "%, C-" << (int)(C*100/totalBaseN) << "%." << endl;
 }
 //-----------------------FIN DE LA CLASE RepAnalisis2------------------------

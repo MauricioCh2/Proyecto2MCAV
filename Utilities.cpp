@@ -10,6 +10,7 @@ void enter() {
 #elif __linux__
     std::cout << std::flush;
     cin.get();
+    cin.get();
 #endif
 }
 
