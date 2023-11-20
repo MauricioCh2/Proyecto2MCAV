@@ -5,6 +5,7 @@
 #include"RepAnalisis1.h"
 #include"RepAnalisis2.h"
 #include"RepAnalisis3.h"
+#include "Utilities.h"
 using namespace std;
 
 //-----------------------------------------------------------------------
@@ -18,7 +19,8 @@ int main() {
 
     do {
         op = InterfazUsuario::menu();
-        system("cls");
+        enter();
+        clean();
         switch (op) {
             case 1:  InterfazUsuario::ventanaCargarPacientes(Co);    break;
             case 2:  InterfazUsuario::ventanaCargaEnfermedades(Co);  break;
@@ -29,7 +31,7 @@ int main() {
             case 6:  cout << "M U C H A S   G R A C I A S" << endl;  break;
             default: cout << " ERROR: Digite una opcion correcta." << endl;
         };  // fin del switch.
-        system("pause");
+        enter();
     } while (op != 6);
 
     delete Co;

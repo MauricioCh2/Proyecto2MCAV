@@ -12,10 +12,16 @@ void RepAnalisis1::encabezado() {
 }
 
 void RepAnalisis1::analisis(Paciente* p, ContEnfermedades* ce) {
-    //for(int i = 0;p[i] != NULL; i++){
-
-    //}
-
+    Enfermedad *ptrE = nullptr;
+    string secuencia = p->getSecuencia();
+    int susceptibilidad = 0;
+    for (int i = 0; i < ce->getCantidad(); i++) {
+        ptrE = ce->obtEnfermedadEnPos(i);
+        susceptibilidad = AplicacionADNcalcularConcentracion(ptrE->getSecEnfermedad(), secuencia);
+        if (susceptibilidad > 0) {
+            cout << "\x1b[36m    ." << ptrE->getNombEnfermedad()<<" \x1b[0m" << endl;
+        }
+    }
 }
 //-----------------------FIN DE LA CLASE RepAnalisis1------------------------
 
